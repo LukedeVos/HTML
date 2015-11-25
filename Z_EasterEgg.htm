@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>The Awesome Web</title>
+<link rel="stylesheet" type="text/css" href="Stylesheet3.css">
+<script>
+function STEEN() {
+var random = Math.random();
+if (random < 0.34) {
+alert("ERROR: Your_Life.exe stopped working")
+}
+if (random > 0.80) {
+window.open("https://www.youtube.com/watch?v=o1eHKf-dMwo","_main")
+}
+
+var userChoice = prompt("Choose Rock, Paper or scissors?");
+var computerChoice = Math.random();
+if (computerChoice < 0.34) {
+        computerChoice = "rock";
+} else if(computerChoice < 0.67) {
+        computerChoice = "paper";
+} else {
+        computerChoice = "scissors";
+}
+var compare = function(choice1, choice2) {
+    if (choice1 === choice2) {
+        alert ("Draw")
+    } else {
+  if (choice1 === "rock") {
+      if(choice2 === "scissors") {
+           alert ("You win!")
+      } else {
+          alert ("You lose!")
+      }
+  }
+  if (choice1 === "paper") {
+      if (choice2 === "rock") {
+          alert ("You win!")
+      } else {
+          alert ("You lose!")
+      }
+  }
+  if (choice1 === "scissors") {
+      if (choice2 === "paper") {
+          alert ("You win!")
+      } else {
+          alert ("You lose!")
+      }
+  }
+}
+if (choice1 === null) {
+	alert ("I said choose Rock, paper or scissors, not something else");
+	doorPieter()
+} else if (choice1 === "butter") {
+ alert ("You win! Your oponent used PeanutButter but you won using the power of Butters");
+} else if (choice1 === "M32 rotary grenade launcher") {
+ alert ("You win! Because fuck you and everyone near you!"); 
+} 
+};
+
+compare(userChoice, computerChoice) 
+}   
+
+</script>
+</head>
+<body>
+<button onclick="STEEN()" >Rock, Paper Scissors</button>
+<a href="Z_EEE.htm" id="link">.</a>
+<p></p>
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" id="video">Awesome Video!</a>
+</body>
+</html>

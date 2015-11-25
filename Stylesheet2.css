@@ -1,0 +1,65 @@
+body {
+background-color: black;
+}
+h1 {
+text-align: center; 
+}
+#T {
+color: #1B00E8;
+}
+#H {
+color: #2700E8;
+}
+#E1 {
+color: #3200E8;
+}
+#A {
+color: #4200E8;
+}
+#W {
+color: #4D00E8;
+}
+#E2 {
+color: #5900E8;
+}
+#S {
+color: #6100E8;
+}
+#O {
+color: #6800E8;
+}
+#M {
+color: #7800E8;
+}
+#E3 {
+color: #8B00E8;
+}
+#W2 {
+color: #9E00E8;
+}
+#E4 {
+color: #B200E8;
+}
+#B {
+color: #D500E8;
+}
+#div {
+  text-align:center;
+  color:#FFFFFF;
+}
+a:link {
+text-decoration:none;
+color:6B9FFF;
+}
+a:visited {
+  color:#6B9FFF;
+}
+a:hover {
+  color:#6600FF;
+}
+#vid {
+  color:#1D000E;
+}
+#EE {
+  color:#660099;
+}
