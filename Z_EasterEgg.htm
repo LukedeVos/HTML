@@ -25,21 +25,21 @@ var compare = function(choice1, choice2) {
     if (choice1 === choice2) {
         alert ("Draw")
     } else {
-  if (choice1 === "rock") {
+  if (choice1 === "rock" || choice1 === "Rock") {
       if(choice2 === "scissors") {
            alert ("You win!")
       } else {
           alert ("You lose!")
       }
   }
-  if (choice1 === "paper") {
+  if (choice1 === "paper" || choice1 === "Paper") {
       if (choice2 === "rock") {
           alert ("You win!")
       } else {
           alert ("You lose!")
       }
   }
-  if (choice1 === "scissors") {
+  if (choice1 === "scissors" || choice1 === "Scissors") {
       if (choice2 === "paper") {
           alert ("You win!")
       } else {
@@ -50,15 +50,15 @@ var compare = function(choice1, choice2) {
 if (choice1 === null) {
 	alert ("I said choose Rock, paper or scissors, not something else");
 	doorPieter()
-} else if (choice1 === "butter") {
+} else if (choice1 === "butter" || choice1 === "Butter") {
  alert ("You win! Your oponent used PeanutButter but you won using the power of Butters");
 } else if (choice1 === "M32 rotary grenade launcher") {
- alert ("You win! Because fuck you and everyone near you!"); 
-} 
+ alert ("You win! Because fuck you and everyone near you!");
+}
 };
 
-compare(userChoice, computerChoice) 
-}   
+compare(userChoice, computerChoice)
+}
 
 </script>
 </head>
