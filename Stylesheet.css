@@ -3,6 +3,7 @@ body {
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-color: #000000;
+ text-align:center;
 }
 h1 {
  text-align:center;
@@ -41,6 +42,10 @@ table {
  color:#6B9FFF;
  text-align:center;
 }
+.center{
+  margin-left:auto;
+  margin-right:auto;
+}
 .disc {
  text-align:center;
  color:#BE00BE;
@@ -51,6 +56,13 @@ table {
 li {
  color:#6B9FFF;
 }
+ol
+    {
+       display: inline-block;
+       margin-left: auto;
+       margin-right: auto;
+       list-style-position: inside;
+    }
 img {
  border-style:none;
 }
